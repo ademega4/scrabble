@@ -1,0 +1,27 @@
+export declare const EVENT_TYPE: {
+    readonly ALREADY_CONNECTED: string;
+    readonly GENERATE_GAME_SESSION_OFFER_ID: string;
+    readonly MSG_ERROR: string;
+    readonly CANCEL_OFFER_TO_PLAY: string;
+    readonly JOIN_GAME: string;
+    readonly JOIN_GAME_RESPONSE: string;
+    readonly JUST_JOINED_GAME: string;
+    readonly ALREADY_JOINED_GAME: string;
+    readonly START_GAME: string;
+    readonly CLOCK_TICK: string;
+    readonly NEXT_TURN: string;
+    readonly PLAYER_DISCONNECT_BEFORE_START: string;
+    readonly PLAYER_DISCONNECT_DURING_GAME: string;
+    readonly MOVE_TILE: string;
+    readonly TILE_INPUT_ERROR: string;
+    readonly SUBMIT_TILE: string;
+    readonly PASS: string;
+    readonly BOARD_CELL_OCCUPIED: string;
+    readonly PAUSE_GAME: string;
+    readonly RESUME_GAME: string;
+    readonly SEARCH_DICT: string;
+    readonly GAME_OVER: string;
+    readonly REMOVE_TILE_FROM_BOARD: string;
+    readonly JOIN_GAME_AFTER_DISCONNECT: string;
+    readonly I_JOIN_GAME_AFTER_DISCONNECT: string;
+};
